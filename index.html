@@ -54,7 +54,7 @@
      </div>
 </body>
 <script type="text/javascript">
-     
+
      function getBody() {
           return document.getElementById('body').value;
      }
@@ -101,15 +101,19 @@
 </script>
 
 <style>
-     .btn-primary {
+     .btn-primary, .btn-primary:not(:disabled) {
           background-color: #de5833;
           border: #de5833;
      }
 
-     .btn-primary:hover {
-          background-color: #aa482d;
-          border: #aa482d;
+     .btn-primary:hover,
+     .btn-primary:active,
+     .btn-primary:visited,
+     .btn-primary:focus{
+          background-color: #aa482d !important; 
+          border: #aa482d !important;
      }
+     
 </style>
 
 </html>
