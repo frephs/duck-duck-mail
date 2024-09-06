@@ -1,4 +1,4 @@
-# DuckMail
-Fork of [frephs/MailBombingTool](https://github.com/frephs/MailBombingTool)
+# Duck duck mail
+Fork of [frephs/collective-mailing](https://github.com/frephs/collective-mailing)
 
-Try it [here](https://frephs.github.io/DuckDuckMail)
+Try it [here](https://frephs.github.io/duck-duck-mail)
